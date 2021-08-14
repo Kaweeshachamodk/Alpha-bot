@@ -12,7 +12,7 @@ const lol = "need some word"
 
     if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sophia ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'alphax ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -25,7 +25,7 @@ const lol = "need some word"
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'ttlogo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'alphax ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
